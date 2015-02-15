@@ -5,12 +5,12 @@
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="Public_Recycling_Bins_shp20150211152902775" name="Public_Recycling_Bins.shp">
             <customproperties>
-                <property key="overview" value="1"/>
+                <property key="overview" value="0"/>
             </customproperties>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="InfoShareAndBankData_Revised1_april420150211184442363" name="InfoShareAndBankData_Revised1_april4">
             <customproperties>
-                <property key="overview" value="1"/>
+                <property key="overview" value="0"/>
             </customproperties>
         </layer-tree-layer>
     </layer-tree-group>
@@ -18,10 +18,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-74.29144126136364434</xmin>
-            <ymin>40.46991969318182214</ymin>
-            <xmax>-73.61391392045456428</xmax>
-            <ymax>40.90913994318181324</ymax>
+            <xmin>-74.27284339999999929</xmin>
+            <ymin>40.48639837500000027</ymin>
+            <xmax>-73.68575060000000576</xmax>
+            <ymax>40.92561862499999137</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -48,12 +48,12 @@
     <legend updateDrawingOrder="true">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Public_Recycling_Bins.shp" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="1" layerid="Public_Recycling_Bins_shp20150211152902775" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Public_Recycling_Bins_shp20150211152902775" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="InfoShareAndBankData_Revised1_april4" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="1" layerid="InfoShareAndBankData_Revised1_april420150211184442363" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="InfoShareAndBankData_Revised1_april420150211184442363" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -629,7 +629,7 @@
             <Automatic type="bool">true</Automatic>
         </PositionPrecision>
         <Legend>
-            <filterByMap type="bool">false</filterByMap>
+            <filterByMap type="bool">true</filterByMap>
         </Legend>
     </properties>
 </qgis>
